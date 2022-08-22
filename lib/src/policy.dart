@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:amazon_cognito_identity_dart_2/sig_v4.dart';
-import 'package:aws_s3_cookoo/enum/acl.dart';
-import 'package:aws_s3_cookoo/src/utils.dart';
+import 'package:aws_s3/enum/acl.dart';
+import 'package:aws_s3/src/utils.dart';
 
 class Policy {
   String expiration;

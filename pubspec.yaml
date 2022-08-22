@@ -1,8 +1,6 @@
-name: aws_s3_cookoo
+name: aws_s3
 description: A simple, convenient package for uploading to S3.
-version: 1.0.0
-# homepage: https://github.com/Serdnad/aws_s3_upload
-# homepage: https://github.com/Waqar27324/aws_s3_cookoo
+version: 0.0.1
 homepage: https://github.com/cookooteam/aws_s3_upload
 
 # aws mediaconvert import
@@ -10,7 +8,7 @@ homepage: https://github.com/cookooteam/aws_s3_upload
 protocol: rest-json
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -20,7 +18,7 @@ dependencies:
   amazon_cognito_identity_dart_2: ^1.0.3
   http: ^0.13.3
   path: ^1.8.0
-# aws mediaconvert import
+  # aws mediaconvert import
   shared_aws_api: ^1.2.0
 
 dev_dependencies:

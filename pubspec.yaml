@@ -19,7 +19,7 @@ dependencies:
   http: ^0.13.3
   path: ^1.8.0
   # aws mediaconvert import
-  shared_aws_api: ^1.2.0
+  # shared_aws_api: ^1.2.0
 
 dev_dependencies:
   flutter_test:
